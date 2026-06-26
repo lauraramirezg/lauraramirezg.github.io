@@ -1,0 +1,176 @@
+@font-face {
+  font-family: web-font-normal;
+  src: url(Assets/Fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+}
+
+@font-face {
+  font-family: web-font-bold;
+  src: url(Assets/Fonts/IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+}
+
+body{
+  background: #F2EFDC;
+  color: #27498C;
+  font-family: web-font-normal;
+  font-size: 20px;
+}
+
+.header-box{
+  display: flex;
+  justify-content:space-between;
+  border-bottom: 1px dashed #27498C;
+}
+
+.header-title {
+  margin-left: 200px;
+}
+
+.header-panel{
+  margin-top:10px;
+  margin-right: 200px;
+}
+
+.header-text{
+  margin-top: 0px;
+  margin-left: 3px;
+  font-size: 13px;
+}
+
+.main {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.home-title{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.home-title h1{
+  font-size: 50px;
+}
+
+.home-box{
+  display: flex;
+  margin-top: 50px;
+  padding: 20px;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.home-block {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: 2px solid #27498C;
+  border-radius: 30px;
+  background: #27498C;
+  color: rgb(254, 250, 224);
+}
+
+.profile-img {
+  width: 35%;
+  height: 20%;
+  border-radius: 30px;
+  object-fit: cover;
+}
+
+
+.home-items{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about-block{
+  margin-top: 100px;
+}
+
+.projects-block{
+  margin-top: 100px;
+}
+
+.contact-block{
+  margin-top: 100px;
+}
+
+.contact-box{
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  /* gap: 30px; */
+}
+
+.contact-panel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-item{
+  display: inline-flex;
+  width: 60px;
+  height: 60px;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+footer{
+  display: block;
+  margin-top: 50px;
+  font-size: 13px;
+  text-align: center;
+  border-top: 1px dashed #27498C;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+::selection {
+  background: #BFB38F;
+}
+
+button {
+  background: rgb(254, 250, 224);
+  color: #27498C;
+  border: 1px solid #27498C;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: web-font-bold;
+}
+
+input {
+  border: 1px solid #27498C;
+  border-radius: 20px;
+  line-height: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 15px;
+  background: rgb(254, 250, 224);
+  color: #27498C;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+}
+
+label{
+  font-size: 20px;
+}
+
